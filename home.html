@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="welcome"></h1>
+    <div class="menu">
+        <h1 onclick="window.location.href='./start.html'"><i class="far fa-play-circle"></i>Start</h1>
+        <h1><i class="far fa-star"></i>Highest Score</h1>
+        <h1><i class="fas fa-at"></i>Contact</h1>
+        <h1 onclick="handleLogOut()" ><i class="fas fa-arrow-left"></i>Logout</h1>
+    </div>
+</body>
+</html>
+<script>
+    var user = JSON.parse(localStorage.getItem("token"));
+    if(!user){
+        window.location.href="./login.html"
+    }
+    document.querySelector("#welcome").innerHTML = `Welcome ${user.user}`;
+
+    const handleLogOut=()=>{
+        localStorage.setItem("token",0);
+        window.location.href="./index.html"
+    }
+</script>

@@ -1,0 +1,204 @@
+[
+    {
+        "question" : "Besides Sachin Tendulkar, who is the only other Indian cricketer to have scored over 13,000 runs in test cricket?",
+        "option1" : "A. Virat Kohli",
+        "option2" : "B. Sunil Gavaskar",
+        "option3" : "C. VVS laxman",
+        "option4" : "D. Rahul Dravid",
+        "correct" : "D. Rahul Dravid"
+    },
+    {
+        "question" : "Ranthambore, Sariska and Keoladeo Ghana are all names of what?",
+        "option1" : "A. National Parks",
+        "option2" : "B. Goosebumps",
+        "option3" : "C. Mountains",
+        "option4" : "D. Rivers",
+        "correct" : "A. National Parks"
+    },
+    {
+        "question" : "India’s official entry to Oscars 2021, ” Jallikattu” is, a film in which language?",
+        "option1" : "A. Hindi",
+        "option2" : "B. Punjabi",
+        "option3" : "C. Kannada",
+        "option4" : "D. Malayalam",
+        "correct" : "D. Malayalam"
+    },
+    {
+        "question" : "In terms of production, which of these is the largest train coach manufacturing unit in the world?",
+        "option1" : "A. Integral Coach Factory, Bangalore",
+        "option2" : "B. Integral Coach Factory, Mumbai",
+        "option3" : "C. Integral Coach Factory, Chennai",
+        "option4" : "D. Integral Coach Factory, Kolkata",
+        "correct" : "C. Integral Coach Factory, Chennai"
+    },
+    {
+        "question" : "In 2020, Louise Gluck won the Nobel Prize in which category?",
+        "option1" : "A. Music",
+        "option2" : "B. Sports",
+        "option3" : "C. Literature",
+        "option4" : "D. Dance",
+        "correct" : "C. Literature"
+    },
+    {
+        "question" : "Which of the following companies was originally started as a loom manufacturing unit in 1909?",
+        "option1" : "A. Suzuki",
+        "option2" : "B. CEAT",
+        "option3" : "C. Honda",
+        "option4" : "D. Mercedes",
+        "correct" : "A. Suzuki"
+    },
+    {
+        "question" : "In 1994, who became the winner of the first-ever Filmfare R D Burman Award for New Music Talent?",
+        "option1" : "A. Udit Narayan",
+        "option2" : "B. A. R. Rahman",
+        "option3" : "C. Lata Mangeshkar",
+        "option4" : "D. Raj Burman",
+        "correct" : "B. A. R. Rahman"
+    },
+    {
+        "question" : "What colour did Lord Shiva’s throat turn into when he drank the deadly poison during Samudra Manthan?",
+        "option1" : "A. Red",
+        "option2" : "B. Yellow",
+        "option3" : "C. Blue",
+        "option4" : "D. Black",
+        "correct" : "C. Blue"
+    },
+    {
+        "question" : " Which state is the largest producer of sugarcane in India?",
+        "option1" : "A. Maharashtra",
+        "option2" : "B. Karnataka",
+        "option3" : "C. Madhya Pradesh",
+        "option4" : "D. Uttar Pradesh",
+        "correct" : "D. Uttar Pradesh"
+    },
+    {
+        "question" : "Which of these is an ashram set up by Gandhiji set up near Wardha in Maharashtra?",
+        "option1" : "A. Sri Aurobindo Ashram",
+        "option2" : "B. Parmarth Niketan Ashram",
+        "option3" : "C. Sevagram",
+        "option4" : "D. Sivananda Ashram",
+        "correct" : "C. Sevagram"
+    },
+    {
+        "question" : "Which indian river crosses the tropic of cancer twice ?",
+        "option1" : "A. Mahi",
+        "option2" : "B. Sabarmati",
+        "option3" : "C. Ganga",
+        "option4" : "D. Tapi",
+        "correct" : "A. Mahi"
+    },
+    {
+        "question" : "National wildlife protection act was passed in ",
+        "option1" : "A. 1962",
+        "option2" : "B. 1972",
+        "option3" : "C. 1982",
+        "option4" : "D. 1987",
+        "correct" : "B. 1972"
+    },
+    {
+        "question" : "The largest satellite of the planet saturn is ",
+        "option1" : "A. atlas",
+        "option2" : "B. titan",
+        "option3" : "C. tethis",
+        "option4" : "D. None of these",
+        "correct" : "B. titan"
+    },
+    {
+        "question" : "Which is the most heaviest metal in perodic table? ",
+        "option1" : "A. Sodium",
+        "option2" : "B. Cobalt",
+        "option3" : "C. Osmonium",
+        "option4" : "D. Nickel",
+        "correct" : "C. Osmonium"
+    },
+    {
+        "question" : "The purest form of coal is ",
+        "option1" : "A. anthracite",
+        "option2" : "B. bituminous",
+        "option3" : "C. peat",
+        "option4" : "D. lignite",
+        "correct" : "A. anthracite"
+    },
+    {
+        "question" : "Allotrope of Carbon used to extract metal ",
+        "option1" : "A. gas carbon",
+        "option2" : "B. coal",
+        "option3" : "C. coke",
+        "option4" : "D. charcoal",
+        "correct" : "C. coke"
+    },
+    {
+        "question" : "Which of the following polymer is used in making bullet proof vests? ",
+        "option1" : "A. Bakelite",
+        "option2" : "B. Polyamides",
+        "option3" : "C. Teflon",
+        "option4" : "D. Polyurethane",
+        "correct" : "B. Polyamides"
+    },
+    {
+        "question" : "An ostrich egg is a ",
+        "option1" : "A. tissue",
+        "option2" : "B. organ system",
+        "option3" : "C. organ",
+        "option4" : "D. cell",
+        "correct" : "D. cell"
+    },
+    {
+        "question" : "Black rust of wheat is caused by ",
+        "option1" : "A. Albugo candida",
+        "option2" : "B. P.graminis",
+        "option3" : "C. Puccinia striformis",
+        "option4" : "D. P.recondita",
+        "correct" : "B. P.graminis"
+    },
+    {
+        "question" : "Penicillin was discovered by",
+        "option1" : "A. Pasteur",
+        "option2" : "B. Fleming",
+        "option3" : "C. Darwin",
+        "option4" : "D. Mendel",
+        "correct" : "B. Fleming"
+    },
+    {
+        "question" : "Cretinism is a human disorder which is due to the under secretion of ",
+        "option1" : "A. aderaline hormone",
+        "option2" : "B. cortisone hormone",
+        "option3" : "C. glycongen hormone",
+        "option4" : "D. thyroxine hormone",
+        "correct" : "D. thyroxine hormone"
+    },
+    {
+        "question" : "Atrazine is the example of ",
+        "option1" : "A. weedicide",
+        "option2" : "B. insecticide",
+        "option3" : "C. fungicide",
+        "option4" : "D. None of these",
+        "correct" : "A. weedicide"
+    },
+    {
+        "question" : "The 'Gaz-i-Sikandar' was introduced by ",
+        "option1" : "A. Balhol Lodhi",
+        "option2" : "B. Ibrahim Lodhi",
+        "option3" : "C. Iltutmish",
+        "option4" : "D. Ala ud-din Khilji",
+        "correct" : "A. Balhol Lodhi"
+    },
+    {
+        "question" : "Saint Ramdas was teacher of ",
+        "option1" : "A. Shivaji",
+        "option2" : "B. Bajirao",
+        "option3" : "C. Sambhaji",
+        "option4" : "D. None of these",
+        "correct" : "A. Shivaji"
+    },
+    {
+        "question" : "Jhansi was recovered by",
+        "option1" : "A. Sleeman",
+        "option2" : "B. Watsan",
+        "option3" : "C. Hugh Rose",
+        "option4" : "D. Campbell",
+        "correct" : "C. Hugh Rose"
+    }
+    
+]
+

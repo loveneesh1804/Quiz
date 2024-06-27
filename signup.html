@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Sign Up</h1>
+        <form autocomplete="off" class="sign-up" >
+            <fieldset>
+                <legend>Name</legend>
+                <input required id="name" type="text" placeholder="Enter Your Name">
+            </fieldset>
+            <fieldset>
+                <legend>Username</legend>
+                <input required id="username" type="email" placeholder="Enter Your Username">
+            </fieldset>
+            <fieldset>
+                <legend>Password</legend>
+                <input required id="password" type="password" placeholder="Enter Password">
+            </fieldset>
+            <fieldset>
+                <legend>Confirm Password</legend>
+                <input required id="password1" type="text" placeholder="Enter Password">
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button onclick="window.location.href='./login.html'">Already Have an Account ?</button>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    var token = JSON.parse(localStorage.getItem("token"));
+    if(token){
+        window.location.href="./home.html"
+    }
+
+    var users = JSON.parse(localStorage.getItem("users")) || [];
+
+
+    let form = document.querySelector(".sign-up");
+    form.addEventListener("submit",(e)=>{
+        e.preventDefault();
+        let name = document.querySelector("#name").value;
+        let username = document.querySelector("#username").value;
+        let password = document.querySelector("#password").value;
+        let password1 = document.querySelector("#password1").value;
+
+        if(password!=password1){
+            return alert("Re-typed Password is Wrong!");
+        }
+        if(password.length<8){
+            return alert("Password Should Contain atleast 8 characters!");
+        }
+
+        let user ={name,username,password};
+        let flag = false;
+        for(var i=0;i<users.length;i++){
+            if(users[i].username==username){
+                flag = true;
+                alert("User Alredy Exists!");
+                break;
+            }
+        }
+        if(!flag){
+                users.push(user);
+                localStorage.setItem("users",JSON.stringify(users));
+                alert("User Created Succesfully!");
+                return window.location.href="./login.html";
+        }
+        
+    })
+</script>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Login</h1>
+        <form autocomplete="off" class="sign-up" >
+            <fieldset>
+                <legend>Username</legend>
+                <input required id="username" type="email" placeholder="Enter Your Username">
+            </fieldset>
+            <fieldset>
+                <legend>Password</legend>
+                <input required id="password" type="password" placeholder="Enter Password">
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button onclick="window.location.href='./signup.html'">Don't Have an Account ?</button>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    var user = JSON.parse(localStorage.getItem("token"));
+    if(user){
+        window.location.href="./home.html"
+    }
+
+    var users = JSON.parse(localStorage.getItem("users")) || [];
+
+
+    let form = document.querySelector(".sign-up");
+    form.addEventListener("submit",function (e){
+        e.preventDefault();
+        let username = document.querySelector("#username").value;
+        let password = document.querySelector("#password").value;
+
+        var flag = false;
+        for(var i=0;i<users.length;i++){
+            if(users[i].username===username){
+                if(users[i].password===password){
+                    alert("Successfully Logged In!");
+                    flag = true;
+                    localStorage.setItem("token",JSON.stringify({
+                        token : new Date().getTime(),
+                        user : users[i].name
+                    }))
+                    window.location.href="./home.html";
+                    break;
+                }
+            }
+        }
+        if(!flag){
+            alert("Invalid Credentials!");
+        }
+    })
+</script>

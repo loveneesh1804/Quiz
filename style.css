@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/12/HD-purple-wallpaper-image-to-use-as-background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+.menu {
+  background-color: transparent;
+  width: 25%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  color: #ffd700;
+  margin-top: 120px;
+}
+.menu > h1 {
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+}
+.menu > h1 > i {
+  padding-right: 10px;
+}
+.menu > h1:hover {
+  background-color: #ffd700;
+  color: purple;
+}
+.question {
+  border: 1px solid #ffd700;
+  width: 70%;
+  padding: 20px;
+  color: #ffd700;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 180px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.question:hover {
+  color: purple;
+  background-color: #ffd700;
+}
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 65%;
+  margin: auto;
+  padding-left: 60px;
+  position: relative;
+}
+.options > div:not(:last-child) {
+  color: #ffd700;
+  border-radius: 10px;
+  border: 1px solid #ffd700;
+  padding: 20px;
+  width: 77%;
+  font-weight: 700;
+  margin: 5px;
+}
+.options > div:hover {
+  color: purple;
+  background-color: #ffd700;
+}
+.timer {
+  position: absolute;
+  top: 50px;
+  left: 47.5%;
+  border-radius: 50%;
+  color: #ffd700;
+  border: 5px solid #ffd700;
+  /* padding: 5px 7px; */
+  width: 42.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43.6px;
+}
+.level {
+  position: absolute;
+  top: 150px;
+  right: 80px;
+}
+.level > div {
+  border: 1px solid #ffd700;
+  width: 70px;
+  height: auto;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffd700;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+}
+.pop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0px;
+}
+.pop > div {
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #ffd700;
+  color: purple;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 150px;
+}
+.pop > div > i {
+  font-size: 70px;
+  color: red;
+  padding-bottom: 20px;
+}
+
+
+
+
+.main{
+  text-align: center;
+  padding: 4rem;
+  width: 40%;
+  margin: auto;
+}
+.main>h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #ffd700;
+}
+.sign-up>fieldset{
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+fieldset>legend{
+  text-align: left;
+  color: #ffd700;
+  font-size: 14px;
+}
+fieldset>input{
+  width: 90%;
+  color: #ffd700;
+  border: none;
+  background-color: transparent;
+}
+fieldset>input:focus{
+  outline: none;
+}
+fieldset>input::placeholder{
+  color: #ffd700;
+}
+.sign-up>button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ffd700;
+  border: none;
+  width: 50%;
+  margin-top: 20px;
+}
+.sign-up>button:hover{
+  opacity: 0.6;
+}
+#welcome{
+  text-align: center;
+  color: #ffd700;
+  position: absolute;
+  font-size: 50px;
+  top: 4%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%);
+}
