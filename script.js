@@ -1,4 +1,5 @@
-import data from "./db.json" assert { type: "json"};
+import data from "./db.json" with { type: "json"};
+console.log(data)
 
 var user = JSON.parse(localStorage.getItem("token"));
 if(!user){
